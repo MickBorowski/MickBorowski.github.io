@@ -9,6 +9,7 @@ h1,h2{ white-space: nowrap;}
 
 
 
+
 body {width: auto;}
 .section-selector-1 { background-color: var(--trend-700) }
 .section-selector-1 .container-upper-label { color: var(--white-000) }
@@ -40,6 +41,8 @@ body {width: auto;}
 .section-selector-4 div[class^='flex-cols-'] div[class^='col-'] p { color: var(--white-000) }
 .section-selector-4 div[class^='flex-cols-'] div[class^='col-'] li { color: var(--white-000) }
 .section-selector-4 div[class^='flex-cols-'] div[class^='col-'] h3 { color: var(--white-000) }
+
+.section-selector-4 h3,p{ text-align: center;}
 
 
 
