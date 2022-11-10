@@ -1,51 +1,28 @@
 /* Add your custom CSS here */
 
+body {font-family: 'Outfit', sans-serif}
+
+header.hero-bg {min-height: 80vh; margin-left: 8%; margin-right: 10%;}
 
 
 
-body { font-family: 'Outfit', sans-serif }
+.section-selector-1 { background-color: var(--trend-700); margin-left: 8%; margin-right: 10%; }
+.section-selector-1 .badge { color: var(--white-000) }
+.section-selector-1 .badge { background-color: var(--trend-700) }
 
-h1,h2{ white-space: nowrap;}
-
-
-
-
-body {width: auto;}
-.section-selector-1 { background-color: var(--trend-700) }
-.section-selector-1 .container-upper-label { color: var(--white-000) }
-.section-selector-1 li { color: var(--white-000) }
-.section-selector-1 h2 { color: var(--white-000) }
-.section-selector-1 p { color: var(--white-000) }
+.col-2 {text-align: justify;}
 
 
+.section-selector-2 { background-color: var(--trend-800); margin-left: 8%; margin-right: 10%;}
+.img-wallet {width: 600px; display:block; margin-top: 80%;}
 
-.section-selector-2 { background-color: var(--trend-800) }
-.section-selector-2 h2 { color: var(--white-000) }
-.section-selector-2 .col-2.col-text p { color: var(--white-000) }
-.section-selector-2 .col-2.col-text li { color: var(--white-000) }
-.section-selector-2 .col-2.col-text  p { text-align: justify; }
+.section-selector-3 { background-color: var(--trend-700); margin-left: 8%; margin-right: 10%; }
 
 
 
 
-
-
-.section-selector-3 { background-color: var(--trend-700) }
-.section-selector-3 h2 { color: var(--white-000) }
-.section-selector-3 .col-2.col-text p { color: var(--white-000) }
-.section-selector-2 .col-2.col-text p { text-align: justify; }
-
-
-.section-selector-4 { background-color: var(--trend-700) }
+.section-selector-4 { background-color: var(--trend-700); margin-left: 8%; margin-right: 10%; }
+.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--blue-300) }
 .section-selector-4 .col-1 h2 { color: var(--white-000) }
-.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] p { color: var(--white-000) }
-.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] li { color: var(--white-000) }
-.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] h3 { color: var(--white-000) }
-
-.section-selector-4 h3,p{ text-align: center;}
-
-
-
-
 
 
