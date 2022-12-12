@@ -1,0 +1,62 @@
+header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)); } 
+header.theme-dark .container-btn a.btn:nth-child(1):link,
+header.theme-dark .container-btn a.btn:nth-child(1):visited { background-color: var(--sky-400) }
+
+header.theme-dark .container-btn a.btn:nth-child(1):link,
+header.theme-dark .container-btn a.btn:nth-child(1):visited { border-color: var(--sky-400) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):link,
+header.theme-dark .container-btn a.btn:nth-child(2):visited { border-color: var(--sky-400) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):focus,
+header.theme-dark .container-btn a.btn:nth-child(2):hover,
+header.theme-dark .container-btn a.btn:nth-child(2):active { border-color: var(--sky-400) }
+
+header.theme-dark .container-btn a.btn:nth-child(2):focus,
+header.theme-dark .container-btn a.btn:nth-child(2):hover,
+header.theme-dark .container-btn a.btn:nth-child(2):active { background-color: var(--sky-400) }
+
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--sky-400) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--black-000) }
+nav.theme-dark ul.links-wrapper li a:link,
+nav.theme-dark ul.links-wrapper li a:visited { color: var(--white-000) }
+nav.theme-dark ul.links-wrapper li a:focus,
+nav.theme-dark ul.links-wrapper li a:hover,
+nav.theme-dark ul.links-wrapper li a:active { color: var(--sky-400) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { border-color: var(--sky-400) }
+
+
+
+.section-selector-1 { background-color: var(--white-000) }
+#about h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: calc(100px + (100 - 48) * ((100vw - 320px)/ (1600 - 320)));
+    white-space: nowrap;
+    text-align:justify
+ }
+ 
+ #about h2 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: 400;
+ }
+
+ .section-selector-1 { background-color: var(--white-000) }
+
+
+
+ .section-selector-2 { background-color: var(--trend-300) }
+ .section-selector-2 div[class^='flex-cols-'].cols-shadows div[class^='col-'] { box-shadow: rgba(56,189,248,0.4) 4px 10px 16px 0 }
+ .section-selector-2 a.btn:focus,
+ .section-selector-2 a.btn:hover,
+ .section-selector-2 a.btn:active { background-color: var(--sky-400) }
+ .section-selector-2 div[class^='flex-cols-'] div[class^='col-'] { background-color: var(--white-000) }
+ 
+
+ 
+ 
