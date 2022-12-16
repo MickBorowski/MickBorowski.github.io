@@ -50,13 +50,23 @@ nav.theme-dark a#btn-cta:active { border-color: var(--sky-400) }
 
 
 
- .section-selector-2 { background-color: var(--trend-300) }
- .section-selector-2 div[class^='flex-cols-'].cols-shadows div[class^='col-'] { box-shadow: rgba(56,189,248,0.4) 4px 10px 16px 0 }
- .section-selector-2 a.btn:focus,
- .section-selector-2 a.btn:hover,
- .section-selector-2 a.btn:active { background-color: var(--sky-400) }
- .section-selector-2 div[class^='flex-cols-'] div[class^='col-'] { background-color: var(--white-000) }
+.section-selector-2 { background-color: var(--white-000) }
+.section-selector-2 div[class^='flex-cols-'].cols-shadows div[class^='col-'] { box-shadow: rgba(56,189,248,0.4) 4px 10px 16px 0 }
+.section-selector-2 a.btn:focus,
+.section-selector-2 a.btn:hover,
+.section-selector-2 a.btn:active { background-color: var(--sky-400) }
+
+
+
+.section-selector-2.theme-light .flex-cols-3 .col-3 .col-3:nth-child(2) {background-color: var(--blue-200)}
+
+
+
+
+
+
  
 
  
+
  
